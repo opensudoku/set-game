@@ -1,0 +1,114 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2013-12-11, 15:17:01
+    Author     : administrator
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 9, 2013, 1:13:17 PM
+    Author     : mark
+*/
+
+body {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: medium;
+    padding: 50px;
+    color: #555;
+}
+
+h1 {
+    text-align: left;
+    letter-spacing: 6px;
+    font-size: 1.4em;
+    color: #be7429;
+    font-weight: normal;
+    width: 450px;
+}
+
+
+a:link{
+  font-family:arial, monospace;
+  text-decoration: none;
+  color: teal;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+a:visited{
+  color:black;
+  text-decoration: none;
+}
+
+
+th {
+    text-align: left;
+    border-bottom: 1px solid;
+}
+
+td {
+    padding: 10px;
+}
+
+a:link {
+   color: #be7429;
+   font-weight: normal;
+   text-decoration: none;
+}
+
+a:link:hover {
+   color: #be7429;
+   font-weight: normal;
+   text-decoration: underline;
+}
+
+/* 
+	Web20 Table Style
+	written by Netway Media, http://www.netway-media.com
+*/
+table {
+  border-collapse: collapse;
+  border: 1px solid #666666;
+  font: normal 14px verdana, arial, helvetica, sans-serif;
+  color: #363636;
+  background: #f6f6f6;
+  text-align:left;
+  }
+caption {
+  text-align: center;
+  font: bold 16px arial, helvetica, sans-serif;
+  background: transparent;
+  padding:6px 4px 8px 0px;
+  color: #CC00FF;
+  text-transform: uppercase;
+}
+thead, tfoot {
+background:url(bg1.png) repeat-x;
+text-align:left;
+height:30px;
+}
+thead th, tfoot th {
+padding:5px;
+}
+table a {
+color: #333333;
+text-decoration:none;
+}
+table a:hover {
+text-decoration:underline;
+}
+tr.odd {
+background: #f1f1f1;
+}
+tbody th, tbody td {
+padding:5px;
+}

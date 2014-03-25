@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Set</title>
+        <link rel="stylesheet" type="text/css" href="style.css"></link>
+    </h:head>
+    <h:body>
+<h1>Show good Set sample </h1>
+        #{setGame.incCounter()}
+        #{setGame.doGoodSet()}
+       
+        <h2>good Set example, #{setGame.counter}</h2>
+         
+       
+         
+      
+         
+        <table border="1"><tr>
+                <td>
+                    <img src="img/img#{setGame.goodSetCardA}.png" width="170"  height="240"  alt="set#{setGame.goodSetCardA}.png"/>
+                </td>
+                <td>
+                    <img src="img/img#{setGame.goodSetCardB}.png" width="170" height="240" alt="set#{setGame.goodSetCardB}.png"/>
+                </td>
+                <td>
+                    <img src="img/img#{setGame.goodSetCardC}.png" width="170"  height="240"  alt="set#{setGame.goodSetCardC}.png"/>
+                </td>
+
+            </tr>
+            <tr>
+                <td align="center">#{setGame.goodSet.get(0)}
+                </td>
+                <td align="center">#{setGame.goodSet.get(1)}
+                </td>
+                <td align="center">#{setGame.goodSet.get(2)}
+                </td>
+
+            </tr>
+            
+   <tr>
+      
+       <td colspan="3" align="center">
+
+        <h:form>
+          
+            <h:commandButton id="submit" value="Next Good SET" action="/index.xhtml">
+            </h:commandButton>
+  
+        </h:form>                    
+                    
+                </td>
+                
+            </tr>
+
+        </table>
+
+
+
+
+    </h:body>
+</html>
+
